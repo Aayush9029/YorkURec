@@ -11,6 +11,15 @@
 		45544C832AF15A7900B81F7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45544C822AF15A7900B81F7F /* ContentView.swift */; };
 		45544C852AF15A7900B81F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45544C842AF15A7900B81F7F /* Assets.xcassets */; };
 		45544C882AF15A7900B81F7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45544C872AF15A7900B81F7F /* Preview Assets.xcassets */; };
+		45544C902AF15B0500B81F7F /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45544C8F2AF15B0500B81F7F /* ScheduleModel.swift */; };
+		45544C922AF15B5000B81F7F /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45544C912AF15B5000B81F7F /* NotificationModel.swift */; };
+		45544C982AF15C0400B81F7F /* Mock+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45544C972AF15C0400B81F7F /* Mock+Extensions.swift */; };
+		45544C992AF15C1800B81F7F /* notification.json in Resources */ = {isa = PBXBuildFile; fileRef = 45544C942AF15BA700B81F7F /* notification.json */; };
+		45544C9A2AF15C1800B81F7F /* schedule.json in Resources */ = {isa = PBXBuildFile; fileRef = 45544C952AF15BA700B81F7F /* schedule.json */; };
+		45544C9D2AF15C7B00B81F7F /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45544C9C2AF15C7B00B81F7F /* ScheduleView.swift */; };
+		45544C9F2AF15D2000B81F7F /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45544C9E2AF15D2000B81F7F /* Date+Extensions.swift */; };
+		45544CA52AF17D8200B81F7F /* DynamicIsland in Frameworks */ = {isa = PBXBuildFile; productRef = 45544CA42AF17D8200B81F7F /* DynamicIsland */; };
+		45544CA72AF1843100B81F7F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45544CA62AF1843100B81F7F /* NotificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		45544C822AF15A7900B81F7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		45544C842AF15A7900B81F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45544C872AF15A7900B81F7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45544C8F2AF15B0500B81F7F /* ScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
+		45544C912AF15B5000B81F7F /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		45544C942AF15BA700B81F7F /* notification.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = notification.json; sourceTree = "<group>"; };
+		45544C952AF15BA700B81F7F /* schedule.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schedule.json; sourceTree = "<group>"; };
+		45544C972AF15C0400B81F7F /* Mock+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+Extensions.swift"; sourceTree = "<group>"; };
+		45544C9C2AF15C7B00B81F7F /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		45544C9E2AF15D2000B81F7F /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		45544CA22AF1782C00B81F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		45544CA62AF1843100B81F7F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45544CA52AF17D8200B81F7F /* DynamicIsland in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +70,11 @@
 		45544C7F2AF15A7900B81F7F /* YorkURec */ = {
 			isa = PBXGroup;
 			children = (
+				45544CA22AF1782C00B81F7F /* Info.plist */,
 				45544C802AF15A7900B81F7F /* YorkURecApp.swift */,
-				45544C822AF15A7900B81F7F /* ContentView.swift */,
+				45544C9B2AF15C7000B81F7F /* Views */,
+				45544C962AF15BFD00B81F7F /* Extensions */,
+				45544C8E2AF15AF900B81F7F /* Models */,
 				45544C842AF15A7900B81F7F /* Assets.xcassets */,
 				45544C862AF15A7900B81F7F /* Preview Content */,
 			);
@@ -65,6 +87,44 @@
 				45544C872AF15A7900B81F7F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45544C8E2AF15AF900B81F7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45544C932AF15B9D00B81F7F /* mock */,
+				45544C8F2AF15B0500B81F7F /* ScheduleModel.swift */,
+				45544C912AF15B5000B81F7F /* NotificationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		45544C932AF15B9D00B81F7F /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				45544C942AF15BA700B81F7F /* notification.json */,
+				45544C952AF15BA700B81F7F /* schedule.json */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
+		45544C962AF15BFD00B81F7F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				45544C972AF15C0400B81F7F /* Mock+Extensions.swift */,
+				45544C9E2AF15D2000B81F7F /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45544C9B2AF15C7000B81F7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45544C822AF15A7900B81F7F /* ContentView.swift */,
+				45544CA62AF1843100B81F7F /* NotificationView.swift */,
+				45544C9C2AF15C7B00B81F7F /* ScheduleView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +143,9 @@
 			dependencies = (
 			);
 			name = YorkURec;
+			packageProductDependencies = (
+				45544CA42AF17D8200B81F7F /* DynamicIsland */,
+			);
 			productName = YorkURec;
 			productReference = 45544C7D2AF15A7900B81F7F /* YorkURec.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +174,9 @@
 				Base,
 			);
 			mainGroup = 45544C742AF15A7900B81F7F;
+			packageReferences = (
+				45544CA32AF17D8200B81F7F /* XCRemoteSwiftPackageReference "DynamicIsland" */,
+			);
 			productRefGroup = 45544C7E2AF15A7900B81F7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				45544C882AF15A7900B81F7F /* Preview Assets.xcassets in Resources */,
+				45544C992AF15C1800B81F7F /* notification.json in Resources */,
+				45544C9A2AF15C1800B81F7F /* schedule.json in Resources */,
 				45544C852AF15A7900B81F7F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +207,12 @@
 			files = (
 				45544C832AF15A7900B81F7F /* ContentView.swift in Sources */,
 				45544C812AF15A7900B81F7F /* YorkURecApp.swift in Sources */,
+				45544C982AF15C0400B81F7F /* Mock+Extensions.swift in Sources */,
+				45544CA72AF1843100B81F7F /* NotificationView.swift in Sources */,
+				45544C922AF15B5000B81F7F /* NotificationModel.swift in Sources */,
+				45544C902AF15B0500B81F7F /* ScheduleModel.swift in Sources */,
+				45544C9D2AF15C7B00B81F7F /* ScheduleView.swift in Sources */,
+				45544C9F2AF15D2000B81F7F /* Date+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +349,8 @@
 				DEVELOPMENT_TEAM = 4538W4A79B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YorkURec/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "uwu Add stuff to calendar.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +380,8 @@
 				DEVELOPMENT_TEAM = 4538W4A79B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YorkURec/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "uwu Add stuff to calendar.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +422,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45544CA32AF17D8200B81F7F /* XCRemoteSwiftPackageReference "DynamicIsland" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Aayush9029/DynamicIsland.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45544CA42AF17D8200B81F7F /* DynamicIsland */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45544CA32AF17D8200B81F7F /* XCRemoteSwiftPackageReference "DynamicIsland" */;
+			productName = DynamicIsland;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 45544C752AF15A7900B81F7F /* Project object */;
 }

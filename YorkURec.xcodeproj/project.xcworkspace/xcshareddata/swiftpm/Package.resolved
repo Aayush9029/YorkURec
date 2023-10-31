@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "dynamicisland",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Aayush9029/DynamicIsland.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "16ee2ba6b148ab7171aceebf8ab45c16e912d7da"
+      }
+    }
+  ],
+  "version" : 2
+}

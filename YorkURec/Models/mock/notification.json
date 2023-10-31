@@ -1,0 +1,14 @@
+{
+    "notifications": [
+        {
+            "id": "19284",
+            "notification": "On October 31 there will be an inspection of the changerooms and pool. Pictures of the facility may be taken, but not of patrons.",
+            "datetime_sent": "2023-10-27 10:42:00"
+        },
+        {
+            "id": "19240",
+            "notification": "Hello Lions! As the weather starts getting cooler, a reminder that jackets are not permitted in the Fitness Centre.",
+            "datetime_sent": "2023-10-24 19:56:00"
+        }
+    ]
+}
