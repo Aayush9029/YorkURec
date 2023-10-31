@@ -29,7 +29,3 @@ Elevating the YorkURec app experience through reverse engineering. Our goal is t
   - Optimized for quick launches, despite the exploratory nature of the code.
 
 <img src="https://github.com/Aayush9029/YorkURec/assets/43297314/452aef1d-825b-4cdd-8231-58cdfb0e8602" width="320"> <img src="https://github.com/Aayush9029/YorkURec/assets/43297314/c61cf702-3162-46c4-97c7-71a296b32672" width="320">
-
----
-
-I hope this brings out the value and effort you've put into the project while maintaining a professional tone. Let me know if you'd like further tweaks!
