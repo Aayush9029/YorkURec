@@ -1,4 +1,4 @@
-> This is made for personal use, I hated the original App UI so made my own. *Now I can finally get rid of that garbage. Thanks for the backend though :)*
+> This is made for personal use; I hated the original app UI, so I created my own. Now, I can finally get rid of that garbage. Thanks for the backend, though :)
 
 <p align="center">
   <img src="https://github.com/Aayush9029/YorkURec/assets/43297314/5880390a-8a20-4603-97a2-072f9731b7a6d" height="128">
